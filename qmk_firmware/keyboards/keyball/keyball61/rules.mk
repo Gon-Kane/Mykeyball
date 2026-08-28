@@ -1,7 +1,7 @@
 # MCU name
 #MCU = atmega32u4
 
-CONVERT_TO = sparkfun_rp2040
+CONVERT_TO = sparkfun_pm2040
 
 # Bootloader selection
 #BOOTLOADER = caterina
