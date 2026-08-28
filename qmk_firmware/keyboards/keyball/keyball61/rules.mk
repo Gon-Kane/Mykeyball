@@ -1,8 +1,13 @@
 # MCU name
-MCU = atmega32u4
+#MCU = atmega32u4
+
+CONVERT_TO = sparkfun_rp2040
 
 # Bootloader selection
-BOOTLOADER = caterina
+#BOOTLOADER = caterina
+
+#RP2040 chibios設定追加
+SERIAL_DRIVER = vendor
 
 # Link Time Optimization required for size.
 LTO_ENABLE = yes
