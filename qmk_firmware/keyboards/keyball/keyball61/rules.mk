@@ -16,11 +16,6 @@ NKRO_ENABLE = no            # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
 
-//下の3行をコメント化 RP2040換装PJ
-//# Duplex matrix.
-//CUSTOM_MATRIX = lite
-//SRC += lib/duplexmatrix/duplexmatrix.c
-
 # Keyball61 is split keyboard.
 SPLIT_KEYBOARD = yes
 
