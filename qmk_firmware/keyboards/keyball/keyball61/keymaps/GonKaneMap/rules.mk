@@ -1,3 +1,5 @@
+CONVERT_TO = sparkfun_pm2040
+
 RGBLIGHT_ENABLE = yes
 
 OLED_ENABLE = yes
