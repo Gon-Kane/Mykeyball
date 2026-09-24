@@ -27,15 +27,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCE            5
 
 // マトリクススキャン時の安定待ち時間を長めにする（デフォルトは1〜5μs程度）1行
-#define MATRIX_IO_DELAY 20 
-// デバウンス（チャタリング防止）のアルゴリズムを「押した瞬間即反応」に変更する(1行)
-// これにより、スキャン遅延によるスタックや入力順の入れ替わりを防ぎます
-#define DEBOUNCE 5
+#define MATRIX_IO_DELAY 20
 
 // 起動時のUSB接続待ち時間を設定(2行)
 #define SPLIT_USB_TIMEOUT 2000
 #define SPLIT_USB_TIMEOUT_POLL 10
-
 // Split parameters
 #define SOFT_SERIAL_PIN         D2
 #define SPLIT_HAND_MATRIX_GRID  F7, D7
