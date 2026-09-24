@@ -1,5 +1,7 @@
 CONVERT_TO = promicro_rp2040
 
+RP2040_DOUBLE_TAP_RESET = yes
+
 RGBLIGHT_ENABLE = yes
 
 OLED_ENABLE = yes
