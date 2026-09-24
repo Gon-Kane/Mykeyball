@@ -18,7 +18,6 @@ AUDIO_ENABLE = no           # Audio output
 
 # Keyball61 is split keyboard.
 SPLIT_KEYBOARD = yes
-SERIAL_DRIVER = vendor      #add 2026/09/25
 
 # Optical sensor driver for trackball.
 POINTING_DEVICE_ENABLE = yes
