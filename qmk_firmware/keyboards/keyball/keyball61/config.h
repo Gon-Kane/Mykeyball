@@ -24,10 +24,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS     { D4, C6, D7, E6, B4 }
 #define MATRIX_COL_PINS     { F4, F5, F6, F7 }
 #define MATRIX_MASKED
-#define DEBOUNCE            20
+#define DEBOUNCE            15
 
 // マトリクススキャン時の安定待ち時間を長めにする（デフォルトは1〜5μs程度）1行
-#define MATRIX_IO_DELAY 140
+#define MATRIX_IO_DELAY 100
 
 // 起動時のUSB接続待ち時間を設定(2行)
 #define SPLIT_USB_TIMEOUT 2000
