@@ -33,7 +33,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPLIT_USB_TIMEOUT 2000
 #define SPLIT_USB_TIMEOUT_POLL 10
 // Split parameters
-#define SOFT_SERIAL_PIN         D2
+#define SERIAL_USART_TX_PIN     D2
+//#define SOFT_SERIAL_PIN         D2
 #define SPLIT_HAND_MATRIX_GRID  F7, D7
 #define SPLIT_USB_DETECT
 #ifdef OLED_ENABLE
