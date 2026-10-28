@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // マトリクススキャン時の安定待ち時間を長めにする（デフォルトは1〜5μs程度）1行
 // 行・列スキャン切り替え時にウェイト(セトリング)する ！行
 #define MATRIX_IO_DELAY 75
-#define MATRIX_SETTLE_DELAY 10
+#define MATRIX_SETTLE_DELAY 50
 
 // 起動時のUSB接続待ち時間を設定(2行)
 #define SPLIT_USB_TIMEOUT 2000
